@@ -1,5 +1,5 @@
 #require_relative '../config/environment'
-extend
+  extend
   Memorable::ClassMethods
   include
   Memorable::InstanceMethods
