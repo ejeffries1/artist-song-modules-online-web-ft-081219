@@ -1,11 +1,8 @@
-#require_relative '../config/environment'
-
-  extend Memorable::ClassMethods
-  include Memorable::InstanceMethods
-  
 class Artist
   attr_accessor :name
   attr_reader :songs
+  
+  
   
   include Paramable
   
