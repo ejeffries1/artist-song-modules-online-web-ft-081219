@@ -6,7 +6,6 @@ class Artist
   Memorable::ClassMethods
   include
   Memorable::InstanceMethods
-  
   include Paramable
   
   @@artists = []
